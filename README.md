@@ -110,3 +110,24 @@ The EDA was conducted using the Jupyter notebook:
 **22. Conclusion: Categories of Clients to Focus On When Granting a Loan**
 
 - Identified high-risk client profiles based on age, education, employment type, and income sources.
+
+## 📊 Key Insights & Conclusions
+
+Based on the EDA findings, the following applicant categories are considered more or less suitable for loan issuance:
+
+### ✅ Safer Candidates for Loans
+- **Higher Education**: Applicants with higher or academic degrees show the lowest default rates.
+- **High Income**: Individuals with above-average income and stable financial standing are more likely to repay.
+- **Stable Employment**: Long-term work experience indicates consistent income and lower risk.
+- **Asset Ownership**: Ownership of a car or real estate often correlates with financial stability.
+- **Clean Credit History**: Applicants with minimal recent credit bureau inquiries and positive credit records pose less risk.
+
+### ⚠️ Moderate Risk
+- Applicants with secondary education but strong income, employment, or asset profiles should be assessed with stricter criteria.
+
+### ❌ High-Risk Applicants
+- **Secondary/Secondary Special Education**: Especially those with low income, large credit amounts, or frequent credit inquiries tend to have higher default rates.
+
+
+
+
