@@ -128,6 +128,15 @@ Based on the EDA findings, the following applicant categories are considered mor
 ### ❌ High-Risk Applicants
 - **Secondary/Secondary Special Education**: Especially those with low income, large credit amounts, or frequent credit inquiries tend to have higher default rates.
 
+## 📁 Repository Structure
 
+```text
+credit-default-risk-analysis/
+│
+├── Home_Credit_Default_Risk.ipynb           # Main EDA notebook
+├── README.md                                # Project summary (this file)
+└── data/                                    
+    ├── application_train.csv                # Main training dataset with client information and TARGET
+    └── HomeCredit_columns_description.csv   # Column descriptions for all data files
 
 
