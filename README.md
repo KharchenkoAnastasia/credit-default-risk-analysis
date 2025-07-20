@@ -135,7 +135,7 @@ credit-default-risk-analysis/
 │
 ├── Home_Credit_Default_Risk.ipynb           # Main EDA notebook
 ├── README.md                                # Project summary (this file)
-└── data/                                    
+└── data/                                    # (Not included in repo; sourced from Kaggle)
     ├── application_train.csv                # Main training dataset with client information and TARGET
     └── HomeCredit_columns_description.csv   # Column descriptions for all data files
 
