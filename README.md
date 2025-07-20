@@ -20,7 +20,12 @@ This is the main training dataset containing static data for loan applications. 
 #### `HomeCredit_columns_description.csv`
 A metadata file containing detailed descriptions of all features (columns) present across the datasets. It was used to better understand the meaning and context of variables during the EDA process.
 
-## 🔍 Key Steps Performed
+## 🧪 Exploratory Data Analysis (EDA)
+
+The EDA was conducted using the Jupyter notebook:  
+📄 `Home_Credit_Default_Risk.ipynb`
+
+### 🔍 Key Steps Performed:
 
 **1. Data Structure Check**
 - Inspected dataset dimensions, column names, and data types.
@@ -69,4 +74,39 @@ A metadata file containing detailed descriptions of all features (columns) prese
 **13. Saving Updated Data with Compression**
 - Exported the cleaned and updated dataset in a compressed format for efficient storage and further modeling.
 
+**14. Checking for Imbalance in the `TARGET` Column**
+- Identified a strong class imbalance:
+  - ~8% default (`TARGET = 1`)
+  - ~92% non-default (`TARGET = 0`)
 
+**15. Data Splitting Based on TARGET**
+
+- Created subsets for deeper comparison between defaulters and non-defaulters.
+
+**16. Univariate Analysis of Categorical Variables**
+
+- Plotted frequency distributions and compared category rates between classes.
+
+**17. Correlation Analysis of Numerical Variables**
+
+- Computed Pearson correlation coefficients and visualized them with heatmaps.
+
+**18. Univariate Analysis of Numerical Variables**
+
+- Examined distributions and summary statistics of numeric features independently.
+
+**19. Bivariate/Multivariate Analysis**
+
+- Explored relationships between pairs or groups of features and their impact on default risk.
+
+**20. Continuous and Categorical Variables**
+
+- Compared continuous distributions across categories; examined influence of categorical variables on numeric values.
+
+**21. Dependencies Between Categorical Variables**
+
+- Investigated how categories interact (e.g., gender × income type) and their effect on target.
+
+**22. Conclusion: Categories of Clients to Focus On When Granting a Loan**
+
+- Identified high-risk client profiles based on age, education, employment type, and income sources.
