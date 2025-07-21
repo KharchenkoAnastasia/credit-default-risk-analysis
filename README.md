@@ -128,6 +128,12 @@ Based on the EDA findings, the following applicant categories are considered mor
 ### ❌ High-Risk Applicants
 - **Secondary/Secondary Special Education**: Especially those with low income, large credit amounts, or frequent credit inquiries tend to have higher default rates.
 
+### 📊 Tools & Libraries
+
+- **Python**  
+  - `pandas`, `numpy`, `matplotlib`, `seaborn`
+- **Google Colab**
+
 ## 📁 Repository Structure
 
 ```text
